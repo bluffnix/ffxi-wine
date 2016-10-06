@@ -4,7 +4,7 @@
 There's an issue with the Final Fantasy XI client on wine. After selecting your Character you are presented with a black screen and cannot continue. Normally the "Loading data..." icon should appear on the bottom right but it does not.
 The fix for this is to use Wine version 1.3.37 32bit and copy the patched imm32.dll.so to `$HOME/.PlayOnLinux/wine/linux-x86/1.3.37/lib/wine/`, overwriting the existing one.
 
-** TODO
+** Todo
 This libary is only compiled on Linux. Someone needs to compile this patched library on OSX (darwin).
 [[http://downloads.sourceforge.net/project/wine/Source/wine-1.4.tar.bz2?r=https%253A%252F%252Fsourceforge.net%252Fprojects%252Fwine%252Ffiles%252FSource%252F&ts=1475757802&use_mirror=heanet][Link to the wine source]]
 
